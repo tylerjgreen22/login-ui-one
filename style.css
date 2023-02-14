@@ -51,12 +51,13 @@ table {
 /* CSS reset end */
 
 .login-ui-container {
-    width: 20em;
+    width: fit-content;
+    padding: 2em 5em;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 1em;
     font-family: sans-serif;
     box-shadow: 0px 0px 5px 4px rgba(214,214,214,0.3);
     border-radius: 15px;
@@ -79,9 +80,8 @@ input {
     background-color: blue;
     color: white;
     border: 0;
-    border-radius: 15px;
-    width: 12em;
-    padding: 1em;
+    border-radius: 100vh;
+    padding: 1em 5em;
     margin: .8rem;
     box-shadow: 0px 0px 5px 4px rgba(214,214,214,0.7);
 }
