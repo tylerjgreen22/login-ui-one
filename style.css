@@ -60,6 +60,8 @@ table {
 }
 
 .login-ui-container {
+    min-width: 10vh;
+    min-height: 10vh;
     padding: 1em 2em;
     display: flex;
     flex-direction: column;
@@ -75,20 +77,20 @@ table {
     }
 }
 
-/* header */
-
-.header {
-    padding: .5rem;
-    font-size: 2rem;
-}
-
-/* input */
+/* general styling */
 
 input {
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
     margin: .8rem;
+}
+
+/* header */
+
+.header {
+    padding: .5rem;
+    font-size: 2rem;
 }
 
 /* sign in button */
